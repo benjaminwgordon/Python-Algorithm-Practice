@@ -1,5 +1,5 @@
 def binarySearch(arr,k):
-    """Finds elem k in sorted array arr"""
+    """Finds elem k in sorted List arr"""
     lowIndex = 0
     highIndex = len(arr) - 1
 
@@ -12,6 +12,3 @@ def binarySearch(arr,k):
         else:
             highIndex = midIndex - 1
     return -1
-
-
-print(binarySearch([1,3,5,6,7,9,11,14,26], 26))

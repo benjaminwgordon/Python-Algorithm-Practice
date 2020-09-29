@@ -3,6 +3,7 @@ import random
 import time
 
 def mergeSort(arr):
+    """MergeSort Implementation: Sorts given List arr"""
     if len(arr) == 1:
         return arr
     else:
@@ -26,5 +27,3 @@ def merge(left, right):
         else:
             out.extend(left)
             return out
-        
-print(mergeSort([math.floor(random.random() * 1000) for i in range(100000)]))

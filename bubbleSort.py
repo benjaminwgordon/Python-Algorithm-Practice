@@ -2,6 +2,7 @@ import math
 import random
 
 def bubbleSort(arr):
+    """BubbleSort Implementation: sorts input List"""
     isSorted = False
     while not isSorted:
         for i in range(len(arr) - 1):
@@ -16,6 +17,3 @@ def bubbleSort(arr):
                 break
     else:
         return arr
-
-
-print(bubbleSort([math.floor(random.random() * 1000) for i in range(500)]))
