@@ -1,7 +1,3 @@
-import math
-import random
-import time
-
 def mergeSort(arr):
     """MergeSort Implementation: Sorts given List arr"""
     if len(arr) == 1:

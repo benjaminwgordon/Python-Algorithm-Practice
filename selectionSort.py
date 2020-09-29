@@ -1,6 +1,3 @@
-import random
-import math
-
 def selectionSort(arr):
     """SelectionSort Implementation: Sorts given List arr"""
     for i in range(0,len(arr)):

@@ -1,6 +1,3 @@
-import math
-import random
-
 def bubbleSort(arr):
     """BubbleSort Implementation: sorts input List"""
     isSorted = False
