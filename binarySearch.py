@@ -1,5 +1,14 @@
 def binarySearch(arr,k):
-    """Finds elem k in sorted List arr"""
+    """
+    Use case: 
+        searching a sorted array for a value
+    Time Complexity
+        Best case: O(1) -- k happens to be the middle element
+        Average case: O(log(n))-- repeated halving of search set creates a base 2 log
+        Worst case: O(log(n)) -- repeated halving of search set creates a base 2 log
+    Space complexity: 
+        O(1) -- three pointers (low, mid, high)
+    """
     lowIndex = 0
     highIndex = len(arr) - 1
 

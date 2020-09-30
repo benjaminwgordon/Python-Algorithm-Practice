@@ -1,0 +1,33 @@
+Searching:
+    linearSearch: Done
+    binarySearch: Done
+    breadthFirst:
+    depthFirst:
+    Dijkstra:
+    A*:
+
+Sorting:
+    selectionSort: Done
+    bubbleSort: Done
+    mergeSort: Done
+    quickSort:
+    heapSort:
+    bucketSort:
+    radixSort:
+    countingSort:
+
+Other:
+    divide-and-conquer:
+    dynamic programming:
+    greedy:
+    recursive:
+
+Data Structures:
+    Arrays:
+    Stacks:
+    Queues:
+    Linked Lists:
+    Trees:
+    Graphs:
+    Hash Tables:
+    

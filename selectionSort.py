@@ -1,5 +1,4 @@
 def selectionSort(arr):
-    """SelectionSort Implementation: Sorts given List arr"""
     for i in range(0,len(arr)):
         min = i
         for j in range (i,len(arr)):
