@@ -2,6 +2,8 @@ def binarySearch(arr,k):
     """
     Use case: 
         searching a sorted array for a value
+    Best case:
+        on any sorted array, binary search is preferred over linear search
     Time Complexity
         Best case: O(1) -- k happens to be the middle element
         Average case: O(log(n))-- repeated halving of search set creates a base 2 log
